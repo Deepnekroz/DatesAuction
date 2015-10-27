@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.config;
+package tk.softwareal.datesauction.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

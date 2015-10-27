@@ -1,6 +1,6 @@
-package com.sergeev.datesauction.model.user;
+package tk.softwareal.datesauction.model.user;
 
-import com.sergeev.datesauction.model.AbstractModel;
+import tk.softwareal.datesauction.model.AbstractModel;
 
 import javax.persistence.*;
 import java.util.Date;

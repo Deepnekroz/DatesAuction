@@ -1,6 +1,6 @@
-package com.sergeev.datesauction.model.dao;
+package tk.softwareal.datesauction.model.dao;
 
-import com.sergeev.datesauction.model.AbstractModel;
+import tk.softwareal.datesauction.model.AbstractModel;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

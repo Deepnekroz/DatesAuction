@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.controller;
+package tk.softwareal.datesauction.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

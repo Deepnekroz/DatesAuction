@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.model;
+package tk.softwareal.datesauction.model;
 
 import javax.persistence.*;
 

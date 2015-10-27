@@ -1,17 +1,14 @@
-package com.sergeev.datesauction.model.dao.user.impl;
+package tk.softwareal.datesauction.model.dao.user.impl;
 
-import com.sergeev.datesauction.model.user.User;
-import com.sergeev.datesauction.model.dao.user.UserDAO;
+import tk.softwareal.datesauction.model.user.User;
+import tk.softwareal.datesauction.model.dao.user.UserDAO;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by deepnekro on 22.07.15.

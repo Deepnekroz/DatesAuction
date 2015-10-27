@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.config;
+package tk.softwareal.datesauction.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;

@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.model.user;
+package tk.softwareal.datesauction.model.user;
 
 /**
  * Created by dmitry-sergeev on 22.09.15.

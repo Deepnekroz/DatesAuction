@@ -1,8 +1,8 @@
-package com.sergeev.datesauction.config;
+package tk.softwareal.datesauction.config;
 
-import com.sergeev.datesauction.model.user.User;
-import com.sergeev.datesauction.model.dao.user.UserDAO;
-import com.sergeev.datesauction.model.user.UserRole;
+import tk.softwareal.datesauction.model.user.User;
+import tk.softwareal.datesauction.model.dao.user.UserDAO;
+import tk.softwareal.datesauction.model.user.UserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

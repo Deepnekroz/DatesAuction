@@ -1,8 +1,8 @@
-package com.sergeev.datesauction.config;
+package tk.softwareal.datesauction.config;
 
 
-import com.sergeev.datesauction.model.dao.user.UserDAO;
-import com.sergeev.datesauction.model.dao.user.impl.UserDAOImpl;
+import tk.softwareal.datesauction.model.dao.user.UserDAO;
+import tk.softwareal.datesauction.model.dao.user.impl.UserDAOImpl;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,7 @@ import java.util.Properties;
  */
 
 @Configuration
-@ComponentScan("com.sergeev.datesauction")
+@ComponentScan("tk.softwareal.datesauction")
 @EnableTransactionManagement
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 @EnableWebMvc

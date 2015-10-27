@@ -1,7 +1,7 @@
-package com.sergeev.datesauction.model.dao.user;
+package tk.softwareal.datesauction.model.dao.user;
 
 
-import com.sergeev.datesauction.model.user.UserRole;
+import tk.softwareal.datesauction.model.user.UserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -28,7 +28,7 @@ public class UserDetailsService implements org.springframework.security.core.use
     public UserDetails loadUserByUsername(final String username)
             throws UsernameNotFoundException {
 
-        com.sergeev.datesauction.model.user.User user = userDao.findByUsername(username);
+        tk.softwareal.datesauction.model.user.User user = userDao.findByUsername(username);
         if(user==null)
             return null;
 
@@ -41,7 +41,7 @@ public class UserDetailsService implements org.springframework.security.core.use
 
     // Converts com.sergeev.controlpanel.model.user.User user to
     // org.springframework.security.core.userdetails.User
-    private User buildUserForAuthentication(com.sergeev.datesauction.model.user.User user,
+    private User buildUserForAuthentication(tk.softwareal.datesauction.model.user.User user,
                                                    List<GrantedAuthority> authorities) {
         return new User(user.getName(), user.getPassword(),
                 user.isEnabled(), true, true, true, authorities);

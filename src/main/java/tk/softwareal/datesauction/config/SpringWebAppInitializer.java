@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.config;
+package tk.softwareal.datesauction.config;
 
 /**
  * Created by dmitry-sergeev on 03.09.15.

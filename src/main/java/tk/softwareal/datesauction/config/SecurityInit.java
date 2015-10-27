@@ -1,4 +1,4 @@
-package com.sergeev.datesauction.config;
+package tk.softwareal.datesauction.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 
